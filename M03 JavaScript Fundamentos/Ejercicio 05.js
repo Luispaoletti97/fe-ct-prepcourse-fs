@@ -99,7 +99,7 @@ function esVocal(letra) {
       return ("Dato incorrecto");
   }
 }
-esVocal ("u");
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    esPositivo,
