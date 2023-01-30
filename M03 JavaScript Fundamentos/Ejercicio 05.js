@@ -1,6 +1,8 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 /*5️⃣ EJERCICIO 05 5️⃣*/
 
+const { obtenerResto } = require("./Ejercicio 02");
+
 function esPositivo(num) {
    // La función recibe un entero. Devuelve como resultado un string que indica si el número
    // es positivo o negativo.
@@ -25,28 +27,41 @@ function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
-   return ("str!");
+   console.log (str +"!");
+   return (str + "!");
 
 }
+
+agregarSimboloExclamacion ("Hello world")
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
-   return (nombre("Soy ") + apellido (" Henry"));
+   console.log (nombre + " " + apellido);
+   return (nombre + " " + apellido);
 }
+
+combinarNombres ("Luis", "Paoeltti");
+
+
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   return ("Hola " + nombre);
+   console.log ("Hola "+ nombre + "!");
+   return ("Hola "+ nombre + "!");
+
 }
+
+obtenerSaludo ("Luis");
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
-   return (alto * ancho);
+   return (ancho * alto);
+   
 }
 
 
@@ -54,7 +69,7 @@ function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un rectángulo.
    // Debes retornar su perímetro.
    // Tu código:
-   return (lado + lado + 2 *( lado + lado));
+   return (lado + lado + lado + lado);
 }
 
 function areaDelTriangulo(base, altura) {
@@ -77,12 +92,14 @@ function esVocal(letra) {
    // Tu código:
    if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ) {
       console.log ("Es vocal");
+      return ("Es vocal");
   }
   else {
       console.log ("Dato incorrecto");
+      return ("Dato incorrecto");
   }
 }
-
+esVocal ("u");
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    esPositivo,

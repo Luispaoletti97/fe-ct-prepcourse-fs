@@ -6,24 +6,32 @@ function sonIguales(x, y) {
    // De lo contrario, retorna False.
    // Tu código: 
    if (x === y) {
+      console.log (true);
       return (true);
    }
    else if (x != y ) {
+      console.log (false);
       return (false);
    }
 }
+sonIguales (3, 3);
+
 
 function tienenMismaLongitud(str1, str2) {
    // Retorna True si los dos strings tienen la misma longitud.
    // De lo contrario, retorna False.
    // Tu código:
    if (str1 === str2) {
+      console.log (true);
       return (true);
    }
    else if (str1 != str2 ) {
+      console.log (true);
       return (false);
    }
 }
+
+tienenMismaLongitud ("Luis","Luis")
 
 function menosQueNoventa(num) {
    // Retorna True si el argumento "num" es menor que noventa.
@@ -68,6 +76,9 @@ function esImpar(num) {
    // Tu código:
    if ((num % 2) != 0) {
       return (true);
+   }
+   else if ((num % 2) === 0) {
+      return (false)
    }
 }
 

@@ -1,6 +1,8 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
+const { nuevaMultiplicacion } = require("./Ejercicio 01");
+
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
@@ -32,6 +34,7 @@ function multiplica(x, y) {
    // Tu código:
    return (x * y);
 }
+console.log (multiplica);
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
