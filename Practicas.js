@@ -65,9 +65,12 @@ for (var i = 0; i < 11; i++) {
 
 
 
-suma = 1;
+/*suma = 1;
 while (suma < 20) {
-   console.log (suma = suma * 2)
+  console.log (suma = suma * 2)
 } // Esto es WHILE.
+*/
+
+//-----------------------------------------------------------------//
 
 
