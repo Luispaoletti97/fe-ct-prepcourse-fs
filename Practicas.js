@@ -81,3 +81,6 @@ switch (color) {
     break;
     default: console.log ("No esta este color")
 }
+
+console.log ("Putos");
+
