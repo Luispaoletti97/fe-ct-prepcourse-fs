@@ -72,5 +72,12 @@ while (suma < 20) {
 */
 
 //-----------------------------------------------------------------//
+var color = "azul"
 
-
+switch (color) {
+    case "red": console.log ("Es rojo");
+    break;
+    case "green": console.log ("Es verde");
+    break;
+    default: console.log ("No esta este color")
+}
