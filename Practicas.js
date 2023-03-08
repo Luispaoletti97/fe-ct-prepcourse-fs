@@ -72,15 +72,39 @@ while (suma < 20) {
 */
 
 //-----------------------------------------------------------------//
-var color = "azul"
-
+/* var color = "red"
+omega (160);
 switch (color) {
     case "red": console.log ("Es rojo");
     break;
-    case "green": console.log ("Es verde");
+    case "green": ("Es verde");
     break;
-    default: console.log ("No esta este color")
-}
+    default: ("No esta este color");
+} */
 
-console.log ("Putos");
+/*
+num = 0;
+while ( num < 20 ) {
+    num++; 
+    if ( num % 2 != 0 )
+     continue;
+    console.log (num);
+
+} */
+/*
+i = 0;
+n = 0;
+while (i < 5) {
+   i++;
+   if (i == 3)
+      continue;
+   console.log (i);
+} */
+
+var num = 35;
+// var str = num.toString();
+
+console.log ((35).toString().length);
+
+
 
